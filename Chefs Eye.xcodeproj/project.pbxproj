@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32CB157A2ABF6155009A7764 /* CalorieChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB15792ABF6155009A7764 /* CalorieChartVC.swift */; };
+		32CB157C2ABF61D9009A7764 /* FavoriRecipesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB157B2ABF61D9009A7764 /* FavoriRecipesVC.swift */; };
+		32CB15802ABF6930009A7764 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB157F2ABF6930009A7764 /* LoginVC.swift */; };
+		32CB15822ABF696B009A7764 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CB15812ABF696B009A7764 /* SignUpVC.swift */; };
 		32EA045329241DC400BA7B57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EA045229241DC400BA7B57 /* AppDelegate.swift */; };
 		32EA045529241DC400BA7B57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EA045429241DC400BA7B57 /* SceneDelegate.swift */; };
-		32EA045729241DC400BA7B57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EA045629241DC400BA7B57 /* ViewController.swift */; };
 		32EA045A29241DC400BA7B57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EA045829241DC400BA7B57 /* Main.storyboard */; };
 		32EA045C29241DC600BA7B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EA045B29241DC600BA7B57 /* Assets.xcassets */; };
 		32EA045F29241DC600BA7B57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EA045D29241DC600BA7B57 /* LaunchScreen.storyboard */; };
@@ -36,10 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32CB15792ABF6155009A7764 /* CalorieChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieChartVC.swift; sourceTree = "<group>"; };
+		32CB157B2ABF61D9009A7764 /* FavoriRecipesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriRecipesVC.swift; sourceTree = "<group>"; };
+		32CB157F2ABF6930009A7764 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		32CB15812ABF696B009A7764 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		32EA044F29241DC400BA7B57 /* Chefs Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chefs Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EA045229241DC400BA7B57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32EA045429241DC400BA7B57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32EA045629241DC400BA7B57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32EA045929241DC400BA7B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32EA045B29241DC600BA7B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32EA045E29241DC600BA7B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +82,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32CB157D2ABF61E1009A7764 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32CB157E2ABF61ED009A7764 /* ViewControllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		32CB157E2ABF61ED009A7764 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				32CB157F2ABF6930009A7764 /* LoginVC.swift */,
+				32CB15812ABF696B009A7764 /* SignUpVC.swift */,
+				32CB15792ABF6155009A7764 /* CalorieChartVC.swift */,
+				32CB157B2ABF61D9009A7764 /* FavoriRecipesVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		32EA044629241DC400BA7B57 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +124,9 @@
 		32EA045129241DC400BA7B57 /* Chefs Eye */ = {
 			isa = PBXGroup;
 			children = (
+				32CB157D2ABF61E1009A7764 /* View */,
 				32EA045229241DC400BA7B57 /* AppDelegate.swift */,
 				32EA045429241DC400BA7B57 /* SceneDelegate.swift */,
-				32EA045629241DC400BA7B57 /* ViewController.swift */,
 				32EA045829241DC400BA7B57 /* Main.storyboard */,
 				32EA045B29241DC600BA7B57 /* Assets.xcassets */,
 				32EA045D29241DC600BA7B57 /* LaunchScreen.storyboard */,
@@ -258,8 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32EA045729241DC400BA7B57 /* ViewController.swift in Sources */,
+				32CB157A2ABF6155009A7764 /* CalorieChartVC.swift in Sources */,
+				32CB157C2ABF61D9009A7764 /* FavoriRecipesVC.swift in Sources */,
 				32EA045329241DC400BA7B57 /* AppDelegate.swift in Sources */,
+				32CB15802ABF6930009A7764 /* LoginVC.swift in Sources */,
+				32CB15822ABF696B009A7764 /* SignUpVC.swift in Sources */,
 				32EA045529241DC400BA7B57 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
